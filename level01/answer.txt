@@ -4,3 +4,4 @@ cat /etc/passw
 john ? cdiiddwpgswtgt
 flag00 nottoohardhere x24ti5gi3x0ol2eh4esiuxias
 flag01 abcdefg        f2av5il02puano7naaf6adaaf
+flag02 ft_waNDReL0L kooda2puivaav1idi4f57q8iq
