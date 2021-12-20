@@ -8,8 +8,9 @@ Contents of the file given:
 
 Explanation :
 
-[x ] is used as a pattern so that getflag can be executed in the preg_replace with '/e' option. Exploit is that '/e' option should only execute 2nd argument but it actually executes any of them.
+[x ] is used as a pattern so that getflag can be executed in the preg_replace with '/e' option. /e runs eval() [php] on the return value of the preg_replace.
 
+${\`getflag\`} is valued.
 backticks are used as shell_exec('').
 
 ${} allows us to print the Error [Undefined variable], the variable being here the content of getflag.
